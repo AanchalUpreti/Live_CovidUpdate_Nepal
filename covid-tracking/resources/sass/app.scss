@@ -1,0 +1,175 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.covid-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px 0px;
+    //margin: 0px;
+    background: linear-gradient(to right, rgb(5, 99, 175), rgb(0, 180, 219));
+    margin-bottom: 20px;
+
+    span {
+        //font-size: 1.9em;
+
+    }
+
+    button {
+
+    }
+}
+
+
+.app {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.global-cases {
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(5, 99, 175);
+}
+
+@media (min-width: 768px) {
+
+    .tiles {
+        flex-direction: row !important;
+        justify-content: space-around;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+    }
+}
+
+.tiles {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.card-panel {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 25px;
+    flex: 1 1 100%;
+    margin: 10px 20px;
+    padding: 1em;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.orange-text {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+.green-text {
+    text-align: center;
+    color: limegreen;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+.red-text {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+.selected-country {
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.custom-select-new {
+    select {
+        background-color: #0563af;
+        color: #fff;
+        padding: 12px;
+        width: 250px;
+        border: none;
+        font-size: 16px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    option {
+        padding: 30px;
+    }
+}
+
+.map {
+
+}
+
+.nepal-table {
+    text-align: center;
+    color: rgb(5, 99, 175);
+    margin-bottom: 40px;
+}
+
+.table-header {
+    display: flex;
+    font-weight: bold;
+    background: rgb(249, 249, 249);
+}
+
+.division {
+    flex: 2 1 0%;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0.5em 0px;
+}
+
+.table-rows {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.column {
+    flex: 1 1 0%;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 0.5em 0px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div {
+    display: block;
+}
